@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/khlaus/needMyDose.git/precache-manifest.44a927c2a2c24e994e184dd26358cf5b.js"
+  "/needMyDose/precache-manifest.5643b1cbd4840952bb6018a9fd07948f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/khlaus/needMyDose.git/index.html", {
+workbox.routing.registerNavigationRoute("/needMyDose/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
